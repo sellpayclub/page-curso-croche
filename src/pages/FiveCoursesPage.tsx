@@ -237,10 +237,7 @@ export default function FiveCoursesPage() {
                   <Check className="text-green-500 shrink-0" size={20} />
                   <span>Video Aulas práticas</span>
                 </li>
-                <li className="flex items-start gap-3">
-                  <Check className="text-green-500 shrink-0" size={20} />
-                  <span>580+ Modelos de Receitas</span>
-                </li>
+
               </ul>
 
               <a 
