@@ -237,23 +237,15 @@ export default function App() {
               <ul className="space-y-4 mb-8">
                 <li className="flex items-start gap-3">
                   <Check className="text-green-500 shrink-0" size={20} />
-                  <span className="font-bold text-stone-800">Acesso Vitalício</span>
+                  <span className="font-bold text-stone-800">Acesso por 1 ano</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="text-green-500 shrink-0" size={20} />
-                  <span>Curso completo com 10 módulos</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Check className="text-green-500 shrink-0" size={20} />
-                  <span>580+ Vídeo Aulas</span>
+                  <span>Video Aulas práticas</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="text-green-500 shrink-0" size={20} />
                   <span>580+ Modelos de Receitas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Check className="text-green-500 shrink-0" size={20} />
-                  <span>Suporte e Comunidade</span>
                 </li>
               </ul>
 
@@ -263,7 +255,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="block w-full bg-stone-800 hover:bg-stone-900 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center"
               >
-                Comprar Plano Básico
+                COMPRAR AGORA
               </a>
               <p className="text-xs text-center text-stone-500 mt-3">
                 Acesso enviado via WhatsApp após confirmação
@@ -308,7 +300,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="text-green-500 shrink-0" size={20} />
-                  <span>580+ Vídeo Aulas</span>
+                  <span>Video Aulas práticas</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Check className="text-green-500 shrink-0" size={20} />
@@ -339,7 +331,7 @@ export default function App() {
                 rel="noopener noreferrer"
                 className="block w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-rose-600/20 text-lg uppercase tracking-wide animate-pulse text-center"
               >
-                Quero o Plano Premium
+                COMPRAR AGORA
               </a>
               <p className="text-xs text-center text-stone-500 mt-3">
                 <span className="font-bold text-rose-600">IMPORTANTE:</span> Seu login e senha de acesso serão enviados no seu WhatsApp assim que a compra for confirmada.
