@@ -115,21 +115,6 @@ export default function App() {
               <p className="text-stone-600">Modelos prontos, bem estruturados e com ótimo valor de venda para gerar renda com encomendas.</p>
             </div>
           </div>
-
-          <div className="bg-stone-900 text-white p-8 md:p-12 rounded-3xl text-center">
-            <h3 className="text-2xl font-bold mb-8 font-serif">Quebra de Objeções</h3>
-            <div className="flex flex-col md:flex-row justify-center gap-6 md:gap-12 mb-8">
-              <div className="flex items-center justify-center gap-3">
-                <Check className="text-green-400" size={24} />
-                <span className="text-lg">Não precisa de experiência</span>
-              </div>
-              <div className="flex items-center justify-center gap-3">
-                <Check className="text-green-400" size={24} />
-                <span className="text-lg">Não precisa de máquina de costura</span>
-              </div>
-            </div>
-            <p className="text-xl text-stone-300 font-serif italic">"Você aprende, faz e pode vender seus próprios vestidos com segurança."</p>
-          </div>
         </div>
       </section>
 
@@ -336,6 +321,76 @@ export default function App() {
               <p className="text-xs text-center text-stone-500 mt-3">
                 <span className="font-bold text-rose-600">IMPORTANTE:</span> Seu login e senha de acesso serão enviados no seu WhatsApp assim que a compra for confirmada.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Guarantee Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl text-center">
+          <div className="mb-8 flex justify-center">
+            <Shield size={80} className="text-green-500" />
+          </div>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 font-serif text-stone-900">
+            Garantia Total de 90 Dias
+          </h2>
+          <p className="text-lg md:text-xl text-stone-600 leading-relaxed max-w-2xl mx-auto">
+            Você tem 90 dias para assistir as aulas e testar o método. Se por qualquer motivo você não gostar ou achar que não é para você, basta enviar um e-mail e devolvemos 100% do seu dinheiro. Sem letras miúdas. Risco zero para você.
+          </p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-16 md:py-24 bg-stone-50">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 font-serif text-stone-900">
+            Perguntas Frequentes
+          </h2>
+          <div className="space-y-6">
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">1. Eu nunca fiz crochê. Vou conseguir aprender mesmo começando do zero?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Sim. O curso começa do básico e ensina cada etapa de forma detalhada. Mesmo quem nunca segurou uma agulha consegue acompanhar. As aulas mostram ponto por ponto, sem pular etapas.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">2. Eu já sei crochê. Não vai ser conteúdo muito básico?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Não. Além da base, você aprende construção de vestidos, ajuste de medidas, acabamento profissional e organização de receita. É exatamente o que falta para quem já faz crochê, mas ainda não consegue entregar peças com padrão de venda.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">3. Quanto tempo leva para fazer um vestido?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Depende do modelo e da sua prática. Iniciantes podem levar alguns dias no primeiro vestido. Com prática, é possível produzir de 2 a 4 peças por semana. Se você não tem tempo nem para produzir algumas horas por semana, então renda extra com crochê não é para você.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">4. É realmente possível ganhar de R$ 3.000 a R$ 5.000 por mês?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">É possível, mas não automático. Os cálculos da página mostram uma conta simples: Se você lucra em média R$ 85 por peça, precisa produzir e vender cerca de 35 a 60 vestidos no mês. Isso exige produção, divulgação e consistência. Não é promessa de dinheiro fácil.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">5. Eu preciso aparecer na internet para vender?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Não necessariamente. Você pode vender para amigas e conhecidas, em grupos locais, pelo WhatsApp ou para clientes sob encomenda. Mas se você não divulgar para ninguém, não vai vender. Crochê não se vende sozinho.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">6. Preciso de máquina de costura?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Não. Os vestidos são feitos totalmente em crochê. Você precisa apenas de: Agulha, Linha, Tesoura e Fita métrica.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">7. Vou ter suporte se tiver dúvidas?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Sim. No plano Premium você tem acesso ao grupo VIP e suporte para tirar dúvidas. Você não fica sozinha tentando entender o conteúdo.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">8. Como recebo o acesso?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Após a confirmação do pagamento, você recebe login e senha diretamente no seu WhatsApp e também no e-mail cadastrado.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">9. O curso é físico ou online?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">É 100% online. Você pode assistir pelo celular, tablet ou computador.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">10. Por quanto tempo tenho acesso?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Plano Básico: 1 ano. Plano Premium: acesso vitalício.</p>
+            </div>
+            <div className="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+              <h3 className="font-sans font-bold text-xl mb-3 text-stone-900">11. E se eu comprar e não gostar?</h3>
+              <p className="text-stone-600 leading-relaxed text-lg">Você tem 30 dias de garantia no Plano Premium. Se não se adaptar, pode pedir reembolso dentro do prazo. Risco zero para testar.</p>
             </div>
           </div>
         </div>
