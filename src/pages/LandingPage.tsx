@@ -232,7 +232,7 @@ export default function LandingPage() {
               </ul>
 
               <a 
-                href="https://seguro.vitago-suplements.shop/r/LZQ4OTRG70"
+                href="https://app.sellpay.com.br/checkout/ca13b2f7-234d-46e7-9e03-86573e7d32e5/a09a33ef-9a82-4da2-805d-5bd2613c8817"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-stone-800 hover:bg-stone-900 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center"
@@ -308,7 +308,7 @@ export default function LandingPage() {
               </div>
 
               <a 
-                href="https://seguro.vitago-suplements.shop/r/76TAH9SRQB"
+                href="https://app.sellpay.com.br/checkout/ca13b2f7-234d-46e7-9e03-86573e7d32e5/93981555-24ed-4b65-bd2b-8434f79baa7f"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-rose-600/20 text-lg uppercase tracking-wide animate-pulse text-center"
