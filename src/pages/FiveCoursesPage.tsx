@@ -241,7 +241,7 @@ export default function FiveCoursesPage() {
               </ul>
 
               <a 
-                href="https://app.sellpay.com.br/c/4pl5"
+                href="https://seguro.vitago-suplements.shop/r/LZQ4OTRG70"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-stone-800 hover:bg-stone-900 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center"
@@ -333,7 +333,7 @@ export default function FiveCoursesPage() {
               </div>
 
               <a 
-                href="https://app.sellpay.com.br/c/ayax"
+                href="https://seguro.vitago-suplements.shop/r/76TAH9SRQB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-rose-600/20 text-lg uppercase tracking-wide animate-pulse text-center"
