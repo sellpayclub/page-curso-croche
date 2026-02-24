@@ -17,6 +17,42 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <!-- Script para repassar UTMs para os links de Checkout -->
+    <script>
+      (function() {
+          // Função para repassar os parâmetros da URL atual para os links da página
+          function appendUrlParamsToLinks() {
+              var searchParams = window.location.search;
+              if (searchParams) {
+                  var links = document.querySelectorAll('a');
+                  for (var i = 0; i < links.length; i++) {
+                      var link = links[i];
+                      
+                      // Coloque aqui parte da URL do seu checkout para que só esses links sejam alterados.
+                      // Se quiser que todos os links da página recebam as UTMs, apenas remova essa verificação de if (link.href.includes(...))
+                      if (link.href.includes('checkout') || link.href.includes('vitago-suplements') || link.href.includes('sellpay')) { 
+                          var hash = link.hash;
+                          var hrefWithoutHash = link.href.split('#')[0];
+                          
+                          // Verifica se o link já tem '?', se tiver adiciona com '&', senão com '?'
+                          var separator = hrefWithoutHash.indexOf('?') !== -1 ? '&' : '?';
+                          
+                          // Remove o '?' inicial da URL principal (searchParams)
+                          var query = searchParams.substring(1);
+                          
+                          link.href = hrefWithoutHash + separator + query + hash;
+                      }
+                  }
+              }
+          }
+          
+          // Executa assim que o script carrega
+          appendUrlParamsToLinks();
+          
+          // Executa novamente quando a página estiver totalmente carregada
+          window.addEventListener('load', appendUrlParamsToLinks);
+      })();
+    </script>
   </body>
 </html>
 
