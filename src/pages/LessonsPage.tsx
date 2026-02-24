@@ -2,7 +2,55 @@ import { Play, Calendar, User } from "lucide-react";
 
 const modules = [
   {
-    title: "Módulo 1: Vestidos Modernos e Tendências (2026)",
+    title: "Módulo 1: Curso de Bolsas de Crochê",
+    description: "Aprenda a criar bolsas incríveis, desde modelos fáceis até peças de luxo.",
+    lessons: [
+      { title: "Bolsa Fácil e Econômica em Fio de Malha", url: "https://www.youtube.com/watch?v=EpvPNn-hWjc" },
+      { title: "Bolsa de Crochê Charlotte (Barbante)", url: "https://www.youtube.com/watch?v=wpe0kPe0m80" },
+      { title: "Bolsa de Crochê Fácil para Iniciantes", url: "https://www.youtube.com/watch?v=T-Q95YA4Vsk" },
+      { title: "Bolsa Vitória (Tamanho Grande)", url: "https://www.youtube.com/watch?v=46VaROuf9qo" },
+      { title: "Bolsa de Crochê Luxo (Fio Náutico)", url: "https://www.youtube.com/watch?v=a_4nTKtNq3o" },
+      { title: "Bolsa Belíssima em Fio de Malha", url: "https://www.youtube.com/watch?v=ciyWtzHIUQ4" },
+      { title: "Vídeo Completo - Semana do Crochê", url: "https://www.youtube.com/watch?v=UF75l7ozHKE" },
+      { title: "Montagem de Bolsa Triângulo Origami", url: "https://www.youtube.com/watch?v=mfB_NEHVI2A" },
+      { title: "Bolsa de Crochê Tiracolo Moderna", url: "https://www.youtube.com/watch?v=gE2fjxCOXZk" },
+      { title: "Acabamentos Profissionais para Bolsas", url: "https://www.youtube.com/watch?v=a_4nTKtNq3o" },
+    ]
+  },
+  {
+    title: "Módulo 2: Crochê Utilitário e Decorativo (Casa)",
+    description: "Peças lindas para decorar a casa e vender muito.",
+    lessons: [
+      { title: "Jogo de Cozinha Passadeira Ametista", url: "https://www.youtube.com/watch?v=8JCPVWFHv2M" },
+      { title: "Tapete Redondo em Crochê Passo a Passo", url: "https://www.youtube.com/watch?v=891-lwVHP0o" },
+      { title: "Sousplat Encanto (Mesa Posta)", url: "https://www.youtube.com/watch?v=i6I8GM0KIqM" },
+      { title: "Tapetão Espiral para Sala", url: "https://www.youtube.com/watch?v=CAyPkVj_-Yo" },
+      { title: "Jogo de Cozinha Completo em Barbante", url: "https://www.youtube.com/watch?v=MiYQrd_kSYk" },
+      { title: "Tapete Rústico Econômico", url: "https://www.youtube.com/watch?v=uNlI5InN54Y" },
+      { title: "Tapete Simples e Rápido para Iniciantes", url: "https://www.youtube.com/watch?v=LcXvGeFMjCc" },
+      { title: "Tutorial Quadrado de Crochê (Base)", url: "https://www.youtube.com/watch?v=1UTyh6hEWJM" },
+      { title: "Artesanato na Talagarça com Barbante", url: "https://www.youtube.com/watch?v=ztXcXFu1r_4" },
+      { title: "Capa para Almofada e Puffs", url: "https://www.youtube.com/watch?v=uNlI5InN54Y" },
+    ]
+  },
+  {
+    title: "Módulo 3: Vestidos de Natal e Ano Novo",
+    description: "Modelos exclusivos para as festas de fim de ano.",
+    lessons: [
+      { title: "Vestido Allana (Especial Réveillon)", url: "https://www.youtube.com/watch?v=Qkm0HVb9O_s" },
+      { title: "Vestido de Crochê Festa 2025/2026", url: "https://www.youtube.com/watch?v=l1t2tFpXUus" },
+      { title: "Vestido de Crochê com Paetê (Réveillon)", url: "https://www.youtube.com/watch?v=DPiMxZziUoc" },
+      { title: "Vestido Márcia Tendência Verão", url: "https://www.youtube.com/watch?v=zQVpLaMwQnY" },
+      { title: "Vestidinho de Ano Novo Elaine Cristina", url: "https://www.youtube.com/watch?v=CtK2NIiHpiE" },
+      { title: "Vestido Fácil e Versátil Verão", url: "https://www.youtube.com/watch?v=aNYZyJjdm10" },
+      { title: "Criação e Confecção de Vestido de Luxo", url: "https://www.youtube.com/watch?v=rV_WA1TpVoc" },
+      { title: "Vestido de Crochê Longo para Festas", url: "https://www.youtube.com/watch?v=l1t2tFpXUus" },
+      { title: "Vestido Branco com Pontos Calados", url: "https://www.youtube.com/watch?v=aNYZyJjdm10" },
+      { title: "Vestido Curto com Brilho para Natal", url: "https://www.youtube.com/watch?v=DPiMxZziUoc" },
+    ]
+  },
+  {
+    title: "Módulo 4: Vestidos Modernos e Tendências (2026)",
     description: "Foco em peças de alto valor percebido e modelos atuais.",
     lessons: [
       { title: "VESTIDO DE CROCHÊ perfeito no corpo (FÁCIL)", url: "https://www.youtube.com/watch?v=1ET5icmHSks" },
@@ -18,7 +66,7 @@ const modules = [
     ]
   },
   {
-    title: "Módulo 2: Estilos Praia e Verão",
+    title: "Módulo 5: Estilos Praia e Verão",
     description: "Peças rápidas de produzir e com alta demanda sazonal.",
     lessons: [
       { title: "Vestido de Praia em crochê Passo a passo completo", url: "https://www.youtube.com/watch?v=JY_GXfvxUhM" },
@@ -29,7 +77,7 @@ const modules = [
     ]
   },
   {
-    title: "Módulo 3: Clássicos e Versáteis",
+    title: "Módulo 6: Clássicos e Versáteis",
     description: "Modelos estruturados para diferentes ocasiões.",
     lessons: [
       { title: "Vestido Tubinho em Crochê (Passo a Passo)", url: "https://www.youtube.com/watch?v=E2UY3DRMy9A" },
@@ -44,7 +92,7 @@ const modules = [
     ]
   },
   {
-    title: "Módulo 4: Infantil e Técnicas Adicionais",
+    title: "Módulo 7: Infantil e Técnicas Adicionais",
     description: "Diversificação de público e métodos simplificados.",
     lessons: [
       { title: "VESTIDO INFANTIL DE CROCHÊ MUITO RÁPIDO", url: "https://www.youtube.com/watch?v=N_jQNWk-cVc" },

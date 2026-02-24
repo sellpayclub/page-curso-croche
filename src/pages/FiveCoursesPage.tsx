@@ -202,6 +202,115 @@ export default function FiveCoursesPage() {
         </div>
       </section>
 
+      {/* Course Curriculum Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 font-serif text-stone-900">
+              Conteúdo Programático
+            </h2>
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+              Veja tudo o que você vai aprender em cada módulo do curso. Aulas detalhadas, passo a passo, para você dominar cada técnica.
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            {/* Módulo 1 */}
+            <div className="border border-stone-200 rounded-2xl overflow-hidden shadow-sm">
+              <div className="bg-stone-50 p-6 border-b border-stone-200">
+                <h3 className="text-xl font-bold font-serif text-stone-900 flex items-center gap-2">
+                  <span className="bg-rose-600 text-white text-xs px-2 py-1 rounded uppercase tracking-wider">Módulo 1</span>
+                  Curso de Bolsas de Crochê
+                </h3>
+              </div>
+              <div className="p-6 bg-white">
+                <ul className="grid md:grid-cols-2 gap-4">
+                  {[
+                    "Bolsa Fácil e Econômica em Fio de Malha",
+                    "Bolsa de Crochê Charlotte (Barbante)",
+                    "Bolsa de Crochê Fácil para Iniciantes",
+                    "Bolsa Vitória (Tamanho Grande)",
+                    "Bolsa de Crochê Luxo (Fio Náutico)",
+                    "Bolsa Belíssima em Fio de Malha",
+                    "Vídeo Completo - Semana do Crochê",
+                    "Montagem de Bolsa Triângulo Origami",
+                    "Bolsa de Crochê Tiracolo Moderna",
+                    "Acabamentos Profissionais para Bolsas"
+                  ].map((lesson, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-stone-600 text-sm">
+                      <div className="mt-1 w-1.5 h-1.5 rounded-full bg-rose-400 shrink-0" />
+                      {lesson}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Módulo 2 */}
+            <div className="border border-stone-200 rounded-2xl overflow-hidden shadow-sm">
+              <div className="bg-stone-50 p-6 border-b border-stone-200">
+                <h3 className="text-xl font-bold font-serif text-stone-900 flex items-center gap-2">
+                  <span className="bg-rose-600 text-white text-xs px-2 py-1 rounded uppercase tracking-wider">Módulo 2</span>
+                  Crochê Utilitário e Decorativo (Casa)
+                </h3>
+              </div>
+              <div className="p-6 bg-white">
+                <ul className="grid md:grid-cols-2 gap-4">
+                  {[
+                    "Jogo de Cozinha Passadeira Ametista",
+                    "Tapete Redondo em Crochê Passo a Passo",
+                    "Sousplat Encanto (Mesa Posta)",
+                    "Tapetão Espiral para Sala",
+                    "Jogo de Cozinha Completo em Barbante",
+                    "Tapete Rústico Econômico",
+                    "Tapete Simples e Rápido para Iniciantes",
+                    "Tutorial Quadrado de Crochê (Base)",
+                    "Artesanato na Talagarça com Barbante",
+                    "Capa para Almofada e Puffs"
+                  ].map((lesson, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-stone-600 text-sm">
+                      <div className="mt-1 w-1.5 h-1.5 rounded-full bg-rose-400 shrink-0" />
+                      {lesson}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Módulo 3 */}
+            <div className="border border-stone-200 rounded-2xl overflow-hidden shadow-sm">
+              <div className="bg-stone-50 p-6 border-b border-stone-200">
+                <h3 className="text-xl font-bold font-serif text-stone-900 flex items-center gap-2">
+                  <span className="bg-rose-600 text-white text-xs px-2 py-1 rounded uppercase tracking-wider">Módulo 3</span>
+                  Vestidos de Natal e Ano Novo
+                </h3>
+              </div>
+              <div className="p-6 bg-white">
+                <ul className="grid md:grid-cols-2 gap-4">
+                  {[
+                    "Vestido Allana (Especial Réveillon)",
+                    "Vestido de Crochê Festa 2025/2026",
+                    "Vestido de Crochê com Paetê (Réveillon)",
+                    "Vestido Márcia Tendência Verão",
+                    "Vestidinho de Ano Novo Elaine Cristina",
+                    "Vestido Fácil e Versátil Verão",
+                    "Criação e Confecção de Vestido de Luxo",
+                    "Vestido de Crochê Longo para Festas",
+                    "Vestido Branco com Pontos Calados",
+                    "Vestido Curto com Brilho para Natal"
+                  ].map((lesson, idx) => (
+                    <li key={idx} className="flex items-start gap-3 text-stone-600 text-sm">
+                      <div className="mt-1 w-1.5 h-1.5 rounded-full bg-rose-400 shrink-0" />
+                      {lesson}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section id="oferta" className="py-16 md:py-24 bg-stone-100">
         <div className="container mx-auto px-4 max-w-5xl">
