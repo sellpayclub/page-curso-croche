@@ -241,7 +241,7 @@ export default function FiveCoursesPage() {
               </ul>
 
               <a 
-                href="https://app.sellpay.com.br/checkout/ca13b2f7-234d-46e7-9e03-86573e7d32e5/a09a33ef-9a82-4da2-805d-5bd2613c8817"
+                href="https://app.sellpay.com.br/checkout/95cc8f2c-f554-4204-b38d-6e806d29da26/9915b23b-6977-42a8-8fd7-9afbb945001b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-stone-800 hover:bg-stone-900 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center"
@@ -333,7 +333,7 @@ export default function FiveCoursesPage() {
               </div>
 
               <a 
-                href="https://app.sellpay.com.br/checkout/ca13b2f7-234d-46e7-9e03-86573e7d32e5/93981555-24ed-4b65-bd2b-8434f79baa7f"
+                href="https://app.sellpay.com.br/checkout/95cc8f2c-f554-4204-b38d-6e806d29da26/bf78a947-8b19-4206-859d-c19c1b105cef"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-rose-600/20 text-lg uppercase tracking-wide animate-pulse text-center"
