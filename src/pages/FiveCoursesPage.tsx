@@ -350,7 +350,7 @@ export default function FiveCoursesPage() {
               </ul>
 
               <a 
-                href="https://seguro.vitago-suplements.shop/r/LZQ4OTRG70"
+                href="https://app.sellpay.com.br/checkout/95cc8f2c-f554-4204-b38d-6e806d29da26/9915b23b-6977-42a8-8fd7-9afbb945001b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-stone-800 hover:bg-stone-900 text-white font-bold py-4 px-6 rounded-xl transition-colors text-center"
@@ -442,7 +442,7 @@ export default function FiveCoursesPage() {
               </div>
 
               <a 
-                href="https://seguro.vitago-suplements.shop/r/76TAH9SRQB"
+                href="https://app.sellpay.com.br/checkout/95cc8f2c-f554-4204-b38d-6e806d29da26/bf78a947-8b19-4206-859d-c19c1b105cef"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-6 rounded-xl transition-colors shadow-lg shadow-rose-600/20 text-lg uppercase tracking-wide animate-pulse text-center"
