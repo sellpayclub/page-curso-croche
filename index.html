@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Google AI Studio App</title>
     <script>
+      // Attempt to make fetch writable to prevent errors from external scripts
+      try {
+        if (window.fetch) {
+           const originalFetch = window.fetch;
+           Object.defineProperty(window, 'fetch', {
+             writable: true,
+             configurable: true,
+             value: originalFetch
+           });
+        }
+      } catch (e) {
+        console.warn("Failed to make fetch writable", e);
+      }
+    </script>
+    <script>
       window.pixelId = "6990e90ce48640d440fdb986";
       var a = document.createElement("script");
       a.setAttribute("async", "");
